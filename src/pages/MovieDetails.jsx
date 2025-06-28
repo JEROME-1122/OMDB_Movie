@@ -9,7 +9,7 @@ export function MovieDetails() {
 
   useEffect(() => {
     fetchMovieDetails(id).then(setMovie);
-    document.title=movie.Title
+    // document.title=movie.Title
   }, [id]);
 
   function convertRuntime(runtimeStr) {
