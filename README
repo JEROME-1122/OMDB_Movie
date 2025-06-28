@@ -1,0 +1,15 @@
+step 1 : Create the NavBar ,Footer and MovieCard in component folder and export all component in index.js file 
+
+Step 2 : Create Home , MovieDetails, SearchResult in page folder and export 3 component in index.js file 
+
+Step 3: Install router dom for routing the pages and add the path 
+
+Step 4 : Create api.js for fetch the datas  using url and apikey we export two fethMovie for fethcing datas and another one for fetchMovieDetails for show the details page 
+
+Step 5 : Design Home page in home page we show the avenger bastman superman  and star wars movie list so we store in popularKeywords array and imort api path and send the key works and push the valu into setMovie and pass the value in MovieCard component.
+
+Step 6 : Then Design the MovieCard component   and get the details from home component and show in card and if we click any card that particular details in MovieDetails componen so using imdbID for navigation .
+
+Step 7 : Design the  MovieDetails page  and show all the details of that particular movie .
+
+Step 8 : We show the search list in SearchResult so we add the search section in navbar component so add the form using onsubmit handleSearch and send the quey and show in SearchResult page
