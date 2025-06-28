@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router";
 import { Home, MovieDetails, SearchResults } from "./pages";
 import { Footer, Navbar } from "./component";
-import "./app.css";
+import "./App.css";
 export default function App() {
   return (
     <>
