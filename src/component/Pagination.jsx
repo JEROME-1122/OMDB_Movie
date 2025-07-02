@@ -6,7 +6,7 @@ export function Pagination({ currentPage, totalPages, onPageChange }) {
   }
 
   return (
-    <div className="flex justify-center my-5 flex-wrap gap-2">
+    <div className="flex justify-center my-5 flex-wrap gap-2 mb-40">
       {pages.map((page) => (
         <button
           key={page}
