@@ -9,7 +9,7 @@ export function MovieCard({ movie }) {
           src={
             movie.Poster !== "N/A"
               ? movie.Poster
-              : "https://via.placeholder.com/150"
+              : "https://picsum.photos/200"
           }
           alt={movie.Title}
           className="w-full xl:h-[300px] lg:h-[400px] md:h-[500px]   object-cover"

@@ -13,8 +13,8 @@ export function Navbar() {
   };
 
   return (
-    <div div className="fixed w-[100%] ">
-      <nav className="bg-gray-800 text-white p-4 md:mb-10 ">
+    <div className="fixed w-[100%]">
+      <nav className="bg-gray-800 text-white p-4 md:mb-10">
         <div className="container mx-auto flex justify-between items-center">
           <NavLink to="/">
             <h1 className="text-xl font-bold">🎬 MovieApp</h1>
@@ -22,7 +22,7 @@ export function Navbar() {
 
           <div className="flex items-center">
             <NavLink to="/">
-              <p className=" md:mr-10">Home</p>
+              <p className="md:mr-10">Home</p>
             </NavLink>
 
             <form
@@ -30,7 +30,7 @@ export function Navbar() {
               className="flex gap-2 hidden md:block"
             >
               <input
-                className="p-1 text-black  bg-white rounded lg:w-100  md:w-70 "
+                className="p-1 text-black bg-white rounded lg:w-100 md:w-70"
                 type="text"
                 placeholder="Search movies..."
                 value={query}
@@ -43,11 +43,12 @@ export function Navbar() {
           </div>
         </div>
       </nav>
-      <div className=" bg-[#fff] py-5 mb-10 block md:hidden">
-        <div className="container mx-auto ">
-          <form onSubmit={handleSearch} className="flex gap-2  ">
+
+      <div className="bg-[#fff] py-5 mb-10 block md:hidden">
+        <div className="container mx-auto">
+          <form onSubmit={handleSearch} className="flex gap-2">
             <input
-              className="p-1 text-black  border  rounded w-100"
+              className="p-1 text-black border rounded w-100"
               type="text"
               placeholder="Search movies..."
               value={query}
